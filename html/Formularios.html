@@ -1,0 +1,125 @@
+<html>
+<head>
+    <title>Formularios en html</title>
+    <link rel="stylesheet" href="../css/Estilo.css" type="text/css"/>
+    <style>
+     img{
+        width:3%;
+         height: auto;
+         float: right;
+     }
+    </style>
+</head>
+<body>
+    <header>
+         <a href="../html/index.html"><img src="../imagenes/casa2.png"></a>
+    <h1>FORMULARIOS</h1>
+    </header>
+    <nav>
+     <ul>
+       <li><a href="../html/Formatos_texto.html">Formatos</a></li>
+       <li><a href="../html/Listas%20(2).html">Listas</a></li>
+       <li><a href="../html/enlaces.html">Enlaces</a></li>
+       <li><a href="../html/Tablas%20(1).html">Tablas</a></li>
+       <li><a href="../html/Imagenes.html">Imagenes</a></li>
+       <li><a href="../html/Audio.html">Audio</a></li>
+       <li><a href="../html/video.html">Video</a></li>
+       <li><a href="../html/Formularios.html">Formularios</a></li>
+     </ul>
+    </nav>
+    <main>
+        <section>
+        <h2> Encabezado 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed convallis mi, et condimentum ligula. Maecenas commodo tellus eu erat mattis, in dictum mi ornare. Duis sodales ullamcorper aliquam. Suspendisse ac nisi volutpat, luctus urna id, euismod magna.<b>Nullam non porta eros. Morbi facilisis dolor tortor, ut iaculis turpis mollis sit amet. Duis feugiat turpis id est efficitur rutrum.</b> Vivamus rutrum, tortor non convallis pretium, nunc sem ornare lectus, at accumsan orci ligula ac sapien. Vestibulum nec odio quam. Maecenas iaculis eu augue at consectetur. Nulla eget semper sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere.</p>
+            <form action="" method="get">
+             <label for="fnombre">Nombre</label>
+                <input type="text" id="fnombre" name="fnombre" value="Escribe tu nombre aquí...">
+                <label for="fapellido">Apellido</label>
+                <input type="text" id="fapellido" name="fapellido" value="Escribe tu apellido aquí...">
+                <input type="submit" value="Enviar">
+            </form>
+            <form action="/action_page.php">
+             <label for="Canción">Escoge una canción de Humbe</label><br>
+                <select id="canción" name="canción">
+                 <option value="Kintsugi">Kintsugi</option>
+                 <option value="Ella brilla">Ella brilla</option>
+                 <option value="Manada">Manada</option>
+                 <option value="Malbec">Malbec</option>
+                 <option value="Bestia">Bestia</option>
+                </select>
+                <input type="submit" value="enviar">
+            </form>
+            <form action="/action_page.php">
+                <label for="Canción">¿Qué genero musical es Humbe?</label><br>
+             <input type="radio" id="Kpop" name="genero" value="Kpop">
+             <label for="Kpop">Kpop</label><br>
+             <input type="radio" id="Rock" name="genero" value="Rock">
+             <label for="Rock">Rock</label><br>
+             <input type="radio" id="Pop" name="genero" value="Pop">
+             <label for="Pop">Pop</label><br>
+             <input type="radio" id="R&B" name="genero" value="R&B">
+             <label for="R&B">R&B</label><br>
+             <input type="submit" value="enviar">
+            </form>
+            <form action="/action_page.php">
+                <label for="Canción">¿Cuál es tu album favorito?</label><br>
+                <input type="checkbox" id="album1" name="album1" value="Aurora">
+                <label for="album1">Aurora</label><br>
+                <input type="checkbox" id="album2" name="album2" value="Entropía">
+                <label for="album2">Entropía</label><br>
+                <input type="checkbox" id="album3" name="album3" value="Escencia">
+                <label for="album3">Esencia</label><br>
+                <input type="checkbox" id="album4" name="album4" value="Armagedón">
+                <label for="album4">Armagedón</label><br>
+                <input type="submit" value="enviar">
+            </form>
+             <form action="/action_page.php">
+                <label for="Canción">Escoge un color</label><br>
+            <input type="color" name="color1" value="#B7B1F2">
+            <input type="color" name="color1" value="#FBF3B9">
+            <input type="submit" value="enviar">
+            </form>
+            <form action="/action_page.php">
+                <label for="Canción">Que te parece la musica de Humbe (Mala, Regular, Buena)</label>
+            <input type="range" name="rango" min="1" list="lista-rango">
+            <datalist id="lista-rango">
+             <option value="1" label="Malo">
+             <option value="2" label="Regular">
+             <option value="3" label="Bueno">
+            </datalist>
+            </form>
+            </section>
+        <section>
+        <h2> Encabezado 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed convallis mi, et condimentum ligula. Maecenas commodo tellus eu erat mattis, in dictum mi ornare. Duis sodales ullamcorper aliquam. Suspendisse ac nisi volutpat, luctus urna id, euismod magna.<b>Nullam non porta eros. Morbi facilisis dolor tortor, ut iaculis turpis mollis sit amet. Duis feugiat turpis id est efficitur rutrum.Stray kids everywere all around the world, You make Stray Kids stay</b> Vivamus rutrum, tortor non convallis pretium, nunc sem ornare lectus, at accumsan orci ligula ac sapien. Vestibulum nec odio quam. Maecenas iaculis eu augue at consectetur. Nulla eget semper sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere.</p>
+            <form action="" method="get">
+              <label for="nombre-1">Nombre</label>
+                <input type="text" id="nombre" name="nombre-1" value="">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" value="">
+                <textarea name="mensaje" row="15" cols="10" width="100%" heigth="100%"></textarea>
+            </form>
+            </section>
+        <section>
+        <h2> Encabezado 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed convallis mi, et condimentum ligula. Maecenas commodo tellus eu erat mattis, in dictum mi ornare. Duis sodales ullamcorper aliquam. Suspendisse ac nisi volutpat, luctus urna id, euismod magna.<b>Nullam non porta eros. Morbi facilisis dolor tortor, ut iaculis turpis mollis sit amet. Duis feugiat turpis id est efficitur rutrum.</b> Vivamus rutrum, tortor non convallis pretium, nunc sem ornare lectus, at accumsan orci ligula ac sapien. Vestibulum nec odio quam. Maecenas iaculis eu augue at consectetur. Nulla eget semper sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere.</p>
+            
+            </section>
+        <section>
+        <h2> Encabezado 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed convallis mi, et condimentum ligula. Maecenas commodo tellus eu erat mattis, in dictum mi ornare. Duis sodales ullamcorper aliquam. Suspendisse ac nisi volutpat, luctus urna id, euismod magna.<b>Nullam non porta eros. Morbi facilisis dolor tortor, ut iaculis turpis mollis sit amet. Duis feugiat turpis id est efficitur rutrum.</b> Vivamus rutrum, tortor non convallis pretium, nunc sem ornare lectus, at accumsan orci ligula ac sapien. Vestibulum nec odio quam. Maecenas iaculis eu augue at consectetur. Nulla eget semper sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere.</p>
+            </section>
+        <section>
+        <h2> Encabezado 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed convallis mi, et condimentum ligula. Maecenas commodo tellus eu erat mattis, in dictum mi ornare. Duis sodales ullamcorper aliquam. Suspendisse ac nisi volutpat, luctus urna id, euismod magna.<b>Nullam non porta eros. Morbi facilisis dolor tortor, ut iaculis turpis mollis sit amet. Duis feugiat turpis id est efficitur rutrum.</b> Vivamus rutrum, tortor non convallis pretium, nunc sem ornare lectus, at accumsan orci ligula ac sapien. Vestibulum nec odio quam. Maecenas iaculis eu augue at consectetur. Nulla eget semper sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere.</p>
+            </section>
+        <section>
+        <h2> Encabezado 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed convallis mi, et condimentum ligula. Maecenas commodo tellus eu erat mattis, in dictum mi ornare. Duis sodales ullamcorper aliquam. Suspendisse ac nisi volutpat, luctus urna id, euismod magna.<b>Nullam non porta eros. Morbi facilisis dolor tortor, ut iaculis turpis mollis sit amet. Duis feugiat turpis id est efficitur rutrum.</b> Vivamus rutrum, tortor non convallis pretium, nunc sem ornare lectus, at accumsan orci ligula ac sapien. Vestibulum nec odio quam. Maecenas iaculis eu augue at consectetur. Nulla eget semper sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere.</p>
+            </section>
+    </main>
+    <footer>
+     <h6>Elaborado por Luz Nahomi Garcia Hernandez</h6>
+    </footer>
+</body>
+</html>
