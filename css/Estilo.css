@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header, nav, main, footer{
+    width: 100%;
+    padding: 30px;
+    color: #FBF3B9;
+}
+header, footer{
+    background-color: #FDB7EA;
+    text-align: center;
+    font-size: 48px;
+}
+nav{
+    height: auto;
+    background-color: #FBF3B9;  
+}
+main{
+    height: auto;
+    background-color: #B7B1F2;
+}
+footer{
+    font-size: 24px;
+}
+section{
+    font-family: "Comfortaa";
+    width: 70%;
+    background-color:#FDB7EA;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+p{
+    margin-top: 20px;
+}
+nav ul{ 
+text-align: center;
+
+}
+nav ul li{
+    list-style-type: none;
+    width: 10%;
+    background-color: #B7B1F2;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    padding: 20px;
+    text-align: center; 
+    border-radius: 20px;
+}
+nav ul li a{
+            color: lightgoldenrodyellow;
+        }
+       
+        nav ul li a: link, nav ul li a:visited{
+            color: papayawhip;
+            text-decoration:none;
+        }
+        nav ul li:hover{
+            background-color: pink;
+        }
+        nav ul li a:hover{
+            color: plum;
+        }
+form{
+    width: 50%;
+    background-color: plum;
+    padding:50px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+input[type=text]{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding:10px;
+    color:deeppink;
+    border-radius: 10px;
+    background-color: beige;
+    border-style: solid;
+    border-width: 3px;
+    border-color: palevioletred;
+}
+input[type=text]:focus{
+    background-color: fuchsia;
+    color:beige;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+input[type=submit]{
+    margin-top: 20px;
+    width: 50%;
+    background-color: hotpink;
+    color: beige;
+    font-weight: bold;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-color: beige;
+    display:block;
+}
